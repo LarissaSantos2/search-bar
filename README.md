@@ -1,6 +1,6 @@
 # 🔍 Barra de Pesquisa Animada
 
-Este projeto apresenta uma **barra de pesquisa interativa e animada** feita com **HTML e CSS**. A interface é minimalista e moderna, com animações suaves para melhorar a experiência do usuário.
+Este projeto apresenta uma **barra de pesquisa interativa e animada** feita com **HTML5 e CSS3**. A interface é minimalista e moderna, com animações suaves para melhorar a experiência do usuário.
 
 ## 🖥️ Funcionalidades
 - Barra de pesquisa expansível ao passar o mouse.
@@ -9,8 +9,8 @@ Este projeto apresenta uma **barra de pesquisa interativa e animada** feita com 
 - Passe o mouse sobre a barra para ver a animação.
 
 ## 🎨 Tecnologias Utilizadas
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ## 👀 Como Visualizar  
 1. Clone o repositório ou baixe os arquivos.  
