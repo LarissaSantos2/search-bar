@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+/* input pesquisar */
+input {
+    height: 60px;
+    width: 0;
+    padding: 0;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    transition: width 0.7s ease, padding 0.7s ease, border 0.7s ease;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+/* botão pesquisa */
+.btn {
+    background-color: #D50000;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.7s ease;
+}
+
+.btn i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.container:hover input {
+    width: 350px;
+    padding: 0 20px;
+    border: 1px solid #D50000;
+}
+
+.container:hover .btn {
+    transform: rotate(-350deg);
+    margin-left: -50px;
+}
